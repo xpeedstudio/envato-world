@@ -1,0 +1,412 @@
+@import url("https://fonts.googleapis.com/css?family=Bai+Jamjuree:400,500,600,700&display=swap");
+.xs_envato_product_grid_item {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-bottom: 30px;
+}
+
+.xs_envato_product_filter {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.xs_envato_product_filter > li {
+  display: inline-block;
+}
+
+.xs_envato_product_filter > li > a {
+  display: block;
+  color: #374a5e;
+  font-size: 15px;
+  -webkit-transition: all .4s ease;
+  -o-transition: all .4s ease;
+  transition: all .4s ease;
+  padding: 6px 42px;
+  font-family: 'Bai Jamjuree', sans-serif;
+}
+
+.xs_envato_product_filter > li > a.selected {
+  background-color: #6a11cb;
+  color: #FFFFFF;
+  -webkit-box-shadow: 0px 7px 15px 0px rgba(106, 17, 203, 0.3);
+  box-shadow: 0px 7px 15px 0px rgba(106, 17, 203, 0.3);
+}
+
+.xs_envato_product_meta {
+  margin-bottom: 20px;
+  line-height: 1;
+}
+
+.xs_envato_product_meta > span {
+  font-family: 'Bai Jamjuree', sans-serif;
+  display: inline-block;
+  color: #000000;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.xs_envato_product_meta > span:not(:last-child) {
+  margin-right: 7px;
+}
+
+.xs_envato_product_meta > span > i {
+  padding-right: 5px;
+}
+
+.xs_envato_product_title {
+  margin-bottom: 0;
+}
+
+.xs_envato_product_title > a {
+  color: #000000;
+  font-size: 15px;
+  font-family: 'Bai Jamjuree', sans-serif;
+}
+
+.xs_envato_entry_header {
+  margin-bottom: 50px;
+}
+
+.product-preview-info {
+  line-height: 1;
+  padding-top: 5px;
+}
+
+.product-preview-info > li {
+  display: inline-block;
+  position: relative;
+  vertical-align: middle;
+  color: #313636;
+}
+
+.product-preview-info > li:not(:last-child) {
+  margin-right: 17px;
+}
+
+.product-preview-info > li a {
+  color: inherit;
+  font-weight: bold;
+}
+
+.product-preview-info > li::before {
+  content: "";
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  background-color: #313636;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.xs_envato_single_product {
+  background-color: #ecedef;
+  padding-top: 50px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.xs_envato_btn_theme {
+  display: inline-block;
+  font-weight: 400;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  font-size: 17px;
+  -webkit-transition: all .4s ease;
+  -o-transition: all .4s ease;
+  transition: all .4s ease;
+  background-color: #313636;
+  color: #FFFFFF;
+  padding: 18px 70px;
+  line-height: 1;
+  border-radius: 4px;
+}
+
+.xs_envato_btn_theme:hover {
+  color: #FFFFFF;
+  -webkit-box-shadow: 0px 10px 50px 0px rgba(49, 54, 54, 0.3);
+  box-shadow: 0px 10px 50px 0px rgba(49, 54, 54, 0.3);
+}
+
+.product-preview-img .content-inner {
+  padding: 12px;
+  text-align: center;
+  display: inline-block;
+  border-radius: 4px;
+  border: 1px solid #e1e8ed;
+  background-color: #fafafa;
+}
+
+.product-preview-img .content-inner > a {
+  position: relative;
+  display: inline-block;
+}
+
+.product-preview-img .content-inner > a::before {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  -webkit-transition: all .4s ease;
+  -o-transition: all .4s ease;
+  transition: all .4s ease;
+  opacity: 0;
+}
+
+.product-preview-img .content-inner > a:hover::before {
+  opacity: 1;
+}
+
+.ew-description {
+  padding-bottom: 100px;
+}
+
+.ew-description > p > img {
+  display: block;
+  margin-bottom: 20px;
+}
+
+.product-preview-img,
+.product-button {
+  margin-bottom: 50px;
+}
+
+.ew-portfolio .content h3 {
+  font-size: 20px;
+  line-height: 20px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+.ew-portfolio .column img {
+  width: 100%;
+  max-height: 300px;
+}
+
+.ew-portfolio .feature-price {
+  position: absolute;
+  background: #FF0C67;
+  height: 40px;
+  width: 40px;
+  border-radius: 25%;
+  text-align: center;
+  right: 20px;
+  margin-top: -22px;
+}
+
+.ew-portfolio .feature-price span {
+  color: white;
+  font-size: 13px;
+  top: 21%;
+  position: relative;
+  -webkit-transform: translate(-25%);
+  -ms-transform: translate(-25%);
+  transform: translate(-25%);
+}
+
+.ew-portfolio .content.feature-content h3 {
+  padding-bottom: 0px;
+}
+
+.ew-portfolio .content .date {
+  color: #75B1FE;
+  font-weight: 400px;
+}
+
+.ew-portfolio .content h3 a {
+  color: #575757 !important;
+}
+
+.ew-portfolio .column .p-price {
+  font-size: 30px;
+  color: #75B1FE;
+  font-weight: 700px;
+}
+
+.p-footer {
+  padding-top: 20px;
+  padding-bottom: 5px;
+}
+
+.p-navigation {
+  margin: 0 auto;
+}
+
+.p-navigation ul {
+  text-align: center;
+}
+
+.p-navigation ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 0px 6px;
+}
+
+.p-navigation ul li:hover a {
+  color: whitesmoke;
+  background: black;
+  padding: 10px;
+}
+
+.p-navigation ul li a {
+  color: black;
+}
+
+.ew-portfolio-post {
+  margin-top: 50px;
+  padding-top: 10px;
+}
+
+.product-preview {
+  overflow: hidden;
+}
+
+.project-single .woocommerce-Price-currencySymbol {
+  display: inline-block !important;
+}
+
+.product-preview .product-preview-img {
+  width: 616px;
+}
+
+.product-preview .product-preview-img .content-inner.xs-padding {
+  padding: 0px 13px 16px 13px;
+}
+
+.product-preview .product-preview-img .product-tag {
+  position: absolute;
+  top: 15px;
+  right: 13px;
+  font-weight: 700;
+  line-height: 27px;
+  padding: 0 15px;
+  border-radius: 3px 0 0 3px;
+  background-color: #faa526;
+  color: #ffffff;
+}
+
+.product-preview .product-preview-img .product-button {
+  left: 0;
+  width: 100%;
+  height: 63px;
+  text-align: center;
+}
+
+.product-preview .product-preview-img img {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.product-preview .product-preview-img .product-button > div {
+  height: 63px;
+  background-color: rgba(51, 51, 51, 0.92);
+}
+
+ul.list-icons.ew-theme-details {
+  padding-left: 29px;
+}
+
+ul.list-icons.--dark {
+  color: #333333;
+}
+
+ul.list-icons li {
+  padding-left: 30px;
+  position: relative;
+  list-style: none;
+}
+
+ul.list-icons li > .fa {
+  font-size: 12px;
+  position: absolute;
+  left: 0;
+  top: 9px;
+}
+
+.xs_envato_product_info {
+  background-color: #fafafa;
+  border-radius: 4px;
+  border: 1px solid #e1e8ed;
+  padding: 23px;
+  margin-bottom: 20px;
+}
+
+.xs_envato_product_info .block-title {
+  font-size: 18px;
+  letter-spacing: 0.06em;
+  text-align: center;
+  margin-top: 1px;
+  margin-bottom: 0;
+  color: #333333;
+}
+
+.project-details {
+  background-color: #fafafa;
+  border-radius: 4px;
+  border: 1px solid #e1e8ed;
+  padding: 23px;
+}
+
+.project-details .dl-horizontal {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.project-details .dl-horizontal:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.project-details .dl-horizontal > strong {
+  text-transform: capitalize;
+  max-width: 150px;
+  display: inline-block;
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 150px;
+  flex: 0 0 150px;
+}
+
+.project-details .dl-horizontal > span > a {
+  color: #0084B4;
+}
+
+.project-details .dl-horizontal > span > a:hover {
+  text-decoration: underline;
+  color: #00719b;
+}
+
+.project-overview {
+  color: #969595;
+}
+
+.project-overview > .content-inner {
+  margin-bottom: 20px;
+}
+
+.themebox_excerpt {
+  margin-bottom: 22px;
+}
+
+.btn-buy-template {
+  background-color: #ff6100;
+}
+
+.btn-buy-template:hover {
+  -webkit-box-shadow: 0px 7px 15px 0px rgba(255, 97, 0, 0.3);
+  box-shadow: 0px 7px 15px 0px rgba(255, 97, 0, 0.3);
+}
+
+.project-overview .read-more {
+  color: black;
+}
+
+.project-overview .xs_envato_btn_theme {
+  display: block;
+}
